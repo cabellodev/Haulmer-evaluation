@@ -44,7 +44,7 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
   # 4 SERVICIOS 
    La escencia del programa esta dentro de la capa de servicios. De esta manera, a partir de inyeccion de depencias podemos acceder a estos servicios en cualquier lugar de la aplicación , utilizando sus funciones principales para interactuar con la base de datos. De esta manera manera tenemos mucho mas covertura y más organización de nuestras acciones.
    
-   <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/SERVICIOS%20-%20ENCRIPTACIO%CC%81N.png" width="400" height="400">
+   <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/SERVICIOS%20-%20ENCRIPTACIO%CC%81N.png" width="400" height="320">
  
   
   # 5 IMPLEMENTACIÓN DE ENCRIPTADO Y DESENCRIPTADO 
