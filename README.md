@@ -59,10 +59,10 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
   
   - Se crea el usuario Pablo Cespedes con todo sus atributos . Luego al ejecutar la petición POST , el usuario en cuestion queda registrado en la base de datos, donde la API devuelve : mensaje , estado (exito ) , datos ( no devuelve ) . 
 
- <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/CREAR%20USUARIO.png" width="400" height="400">
+ <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/CREAR%20USUARIO.png" width="800" height="600">
  
  
  Luego se comprueba su existencia ejecutando Listar usuarios , y se corrobora que el usuario esta registrado en la lista de usuarios:
   
 
- <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/LISTAR%20CON%20NUEVO%20USUARIO.png" width="400" height="400">
+ <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/LISTAR%20CON%20NUEVO%20USUARIO.png" width="800" height="600">
