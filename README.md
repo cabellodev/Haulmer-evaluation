@@ -2,10 +2,11 @@
 
 De comienzo , para poder tener una buena experiencia en la ejecución del programa se necesita tener en consideración:
 
-1. Clonar este repositorio o bajarlo directamente para su importación.
-2. Utilizar un IDE o entorno ( preferentemente Microsoft Visual Studio ) 
-3. Debido a que es una demostración de buenas prácticas y simplicidad , se cuenta con un archivo UsersData.json (en la raiz del proyecto)  que será nuestra base de datos de prueba. Con esto simplificaremos la manera de ejecutar el programa. NO HAY QUE MOVERLO DE SU UBICACION.
-4. Utilizar la coleccion API Postman para realizar las solicitudes correspondientes. El archivo es HAULMER-SOLUTION.postman_collection.json
+- Clonar este repositorio o bajarlo directamente para su importación.
+- Utilizar un IDE o entorno ( preferentemente Microsoft Visual Studio ) 
+- Dentro del IDE  , se puede abrir el archivo "solution.sln" dentro de la carpeta "solution".
+- Debido a que es una demostración de buenas prácticas y simplicidad , se cuenta con un archivo UsersData.json (en la raiz del proyecto)  que será nuestra base de datos de prueba. Con esto simplificaremos la manera de ejecutar el programa. NO HAY QUE MOVERLO DE SU UBICACION.
+- Importar la coleccion API Postman para realizar las solicitudes correspondientes. El archivo es HAULMER-SOLUTION.postman_collection.json
 
 
 
