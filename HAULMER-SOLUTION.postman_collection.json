@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "b819cee5-453c-4d12-bd66-459ce74d5a51",
+		"name": "HAULMER-SOLUTION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8970835",
+		"_collection_link": "https://blue-sunset-731310.postman.co/workspace/Team-Workspace~185cf9e9-4f37-4a65-80a3-3f0dd261ca65/collection/8970835-b819cee5-453c-4d12-bd66-459ce74d5a51?action=share&creator=8970835&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Crear un nuevo usuario",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJQb3N0dWxhY2lvbmVzSldUU2VydmljZUFjY2Vzc1Rva2VuIiwianRpIjoiMjlmYjM4NTQtNmY0NC00YjNlLWI2YTktZjllZjM1N2Q3YTg4IiwiaWF0IjoiNS8xNi8yMDIzIDI6MTI6NTkgQU0iLCJVc2VySWQiOiJJZCIsIkRpc3BsYXlOYW1lIjoiUG9zdHVsYW50ZSAyMDIzMDUiLCJVc2VyTmFtZSI6InNlYmFzdGlhbmNhYmVsbG93NjduZl9heHBAaW5kZWVkZW1haWwuY29tIiwiRW1haWwiOiJzZWJhc3RpYW5jYWJlbGxvdzY3bmZfYXhwQGluZGVlZGVtYWlsLmNvbSIsImV4cCI6MTY4NDIxNzg3OSwiaXNzIjoiaHR0cHM6Ly9zb2x1dG9yaWEuY2wvIiwiYXVkIjoiSldUU2VydmljZVBvc3R1bGFudGUifQ.8pXCLA84nixhUKTMycgYT9LC51WIsGmuAzgMuRlY09E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "        {\n            \n            \"nombre\": \"Marcela\",\n            \"apellido\": \"Cortes\",\n            \"correo\": \"Marcelacortes@gmail.com\",\n            \"telefono\": \"+56947092777\",\n            \"contraseña\": \"khjamarcelatt\",\n            \"fechaActualización\": \"07/06/2023\"\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5138/api/Users/guardarUsuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5138",
+					"path": [
+						"api",
+						"Users",
+						"guardarUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar todos los usuarios ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5138/api/Users/listarUsuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5138",
+					"path": [
+						"api",
+						"Users",
+						"listarUsuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Encriptación de texto ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"text\":\"Haulmer empresas\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5138/api/Encrypted/encrypt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5138",
+					"path": [
+						"api",
+						"Encrypted",
+						"encrypt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Desencriptado de texto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"encrypted\": \"pKaMHZzeWYpYjOCBDB3egbjUEwLE0Kxz\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5138/api/Encrypted/decrypt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5138",
+					"path": [
+						"api",
+						"Encrypted",
+						"decrypt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
