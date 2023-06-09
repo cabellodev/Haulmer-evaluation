@@ -55,17 +55,29 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
     
   # EVIDENCIA DE EJECUCIÓN ( FOTOGRAFÍAS ) 
   
-  A modo de evidencia se da a conocer las siguientes acciones : 
+  A modo de evidencia se da a conocer las siguientes acciones (USUARIOS) : 
   
   - Se crea el usuario Pablo Cespedes con todo sus atributos . Luego al ejecutar la petición POST , el usuario en cuestion queda registrado en la base de datos, donde la API devuelve : mensaje , estado (exito ) , datos ( no devuelve ) . 
 
  <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/CREAR%20USUARIO.png" width="800" height="600">
  
  
- Luego se comprueba su existencia ejecutando Listar usuarios , y se corrobora que el usuario esta registrado en la lista de usuarios:
+ -Luego se comprueba su existencia ejecutando Listar usuarios , y se corrobora que el usuario esta registrado en la lista de usuarios:
   
 
  <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/LISTAR%20CON%20NUEVO%20USUARIO.png" width="800" height="600">
  
  
  **NOTA : Dentro del modelo FechaCreacion y telefono son parametros libres . FechaCreacion se asigna internamente al registrar.** 
+ 
+ Por otro lado , ahora hacemos evidencia de las encriptaciones con MD5 . Le enviaremos a la API un texto para que lo pueda encriptar. 
+ 
+ <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/ENCRIPTACION.png" width="800" height="600">
+ 
+ Se aprecia que se obtiene el valor en base 64 equivalente al text enviado encriptado.
+ 
+ - Por ultimo , con la respuesta entregada en base 64 de la petición anterior , se procede a desencriptar : 
+ 
+ <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/DESCRIPTACIO%CC%81N.png" width="800" height="600">
+
+  Por lo que se puede apreciar que nuevamente nos devuelve el valor originar , es decir , Haulmer empresas. 
