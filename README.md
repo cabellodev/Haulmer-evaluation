@@ -54,3 +54,15 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
     Puede ocupar swagger (que viene  integrado con .NET core) para poder realizar las operaciones con los endpoint creados en el proyecto. 
     
   # EVIDENCIA DE EJECUCIÓN ( FOTOGRAFÍAS ) 
+  
+  A modo de evidencia se da a conocer las siguientes acciones : 
+  
+  - Se crea el usuario Pablo Cespedes con todo sus atributos . Luego al ejecutar la petición POST , el usuario en cuestion queda registrado en la base de datos, donde la API devuelve : mensaje , estado (exito ) , datos ( no devuelve ) . 
+
+ <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/CREAR%20USUARIO.png" width="400" height="400">
+ 
+ 
+ Luego se comprueba su existencia ejecutando Listar usuarios , y se corrobora que el usuario esta registrado en la lista de usuarios:
+  
+
+ <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/LISTAR%20CON%20NUEVO%20USUARIO.png" width="400" height="400">
