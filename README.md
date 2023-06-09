@@ -45,7 +45,7 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
   **NOTA DE ACCIÓN: Se decidió por demostrar la ejecucion del programa a través de una base de datos simple ,realizada con un archivo de texto JSON , esto especialmente para darle prioridad a la demostración del uso de .NET CORE  y no ahondar en configuraciones extras de gestores de bases de datos por parte de los evaluadores ( mayor comodidad). Se sabe que en casos  reales se puede disponer de un ORM como EntityFramework actuando como capa de abstracción de datos aprovechando las comodas bondades de la programación orientada a objetos y el uso de SQL server , pero solo para este ejemplo se pretende hacer más agil la demostración del uso de .NET  a través del almacenamiento y lectura de un archivo JSON.** 
   
   # 4 SERVICIOS 
-   La escencia del programa esta dentro de la capa de servicios. De esta manera, a partir de inyeccion de depencias podemos acceder a estos servicios en cualquier lugar de la aplicación , utilizando sus funciones principales para interactuar con la base de datos. De esta manera manera tenemos mucho mas covertura y más organización de nuestras acciones.
+   La escencia del programa esta dentro de la capa de servicios. De esta manera, a partir de inyección de depencias podemos acceder a estos servicios en cualquier lugar de la aplicación , utilizando sus funciones principales para interactuar con la base de datos. De esta manera manera tenemos mucho mas covertura y más organización de nuestras acciones.
    
    <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/SERVICIOS%20-%20ENCRIPTACIO%CC%81N.png" width="400" height="320">
  
