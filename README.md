@@ -41,11 +41,15 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
  
   **NOTA DE ACCIÓN: Se decidió por demostrar la ejecucion del programa a través de una base de datos simple ,realizada con un archivo de texto JSON , esto especialmente para darle prioridad a la demostración del uso de .NET CORE  y no ahondar en configuraciones extras de gestores de bases de datos por parte de los evaluadores ( mayor comodidad). Se sabe que en casos  reales se puede disponer de un ORM como EntityFramework actuando como capa de abstracción de datos aprovechando las comodas bondades de la programación orientada a objetos y el uso de SQL server , pero solo para este ejemplo se pretende hacer más agil la demostración del uso de .NET  a través del almacenamiento y lectura de un archivo JSON.** 
   
+  # 4 SERVICIOS 
+   La escencia del programa esta dentro de la capa de servicios. De esta manera, a partir de inyeccion de depencias podemos acceder a estos servicios en cualquier lugar de la aplicación , utilizando sus funciones principales para interactuar con la base de datos. De esta manera manera tenemos mucho mas covertura y más organización de nuestras acciones.
+   
   
-  # 4 IMPLEMENTACIÓN DE ENCRIPTADO Y DESENCRIPTADO 
+  
+  # 5 IMPLEMENTACIÓN DE ENCRIPTADO Y DESENCRIPTADO 
    Para realizar ambas acciones se seleccionó el algoritmo llamado MD5 , que tiene amplio uso por ser sencillo y rápido . Ideal para    demostraciones como estás . No se recomienda para casos más serios donde se necesite mayor seguridad. 
    
-  # 5 DEMOSTRACIONES ANEXAS
+  # 6 DEMOSTRACIONES ANEXAS
     Puede ocupar swagger (que viene  integrado con .NET core) para poder realizar las operaciones con los endpoint creados en el proyecto. 
     
   # EVIDENCIA DE EJECUCIÓN ( FOTOGRAFÍAS ) 
