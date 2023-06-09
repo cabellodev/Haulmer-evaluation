@@ -66,3 +66,6 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
   
 
  <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/LISTAR%20CON%20NUEVO%20USUARIO.png" width="800" height="600">
+ 
+ 
+ **NOTA : Dentro del modelo FechaCreacion y telefono son parametros libres . FechaCreacion se asigna internamente al registrar.** 
