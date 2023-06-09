@@ -43,4 +43,4 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
   # 5 DEMOSTRACIONES ANEXAS
     Puede ocupar swagger (que viene  integrado con .NET core) para poder realizar las operaciones con los endpoint creados en el proyecto. 
     
-  # EVIDENCIA DE EJECUCIÓN ( FOTOGRAFIAS ) 
+  # EVIDENCIA DE EJECUCIÓN ( FOTOGRAFÍAS ) 
