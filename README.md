@@ -81,3 +81,6 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
  <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/DESCRIPTACIO%CC%81N.png" width="800" height="600">
 
   Por lo que se puede apreciar que nuevamente nos devuelve el valor originar , es decir , Haulmer empresas. 
+  
+  # CONCLUSIONES 
+  Todas las decisiones tomadas en este proyecto fueron tomando en cuenta los principios mas importantes de la programación en .NET , en especial el dominio de diferentes definiciones,programación orientada a objetos e inyección de dependecias . 
