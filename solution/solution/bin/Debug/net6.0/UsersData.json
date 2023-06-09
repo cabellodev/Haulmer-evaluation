@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "Nombre": "Sebastian",
+    "Apellido": "Cabello",
+    "Correo": "scabello58@gmail.com",
+    "Telefono": "+56947092408",
+    "Contraseña": "sebatornade",
+    "FechaCreacion": "08-03-2023 00:00:00",
+    "FechaActualización": "06/06/2023"
+  },
+  {
+    "id": 2,
+    "Nombre": "Claudia",
+    "Apellido": "Rojas",
+    "Correo": "clau58@gmail.com",
+    "Telefono": "+56947092406",
+    "Contraseña": "auriclau",
+    "FechaCreacion": "08-05-2023 00:00:00",
+    "FechaActualización": "07/06/2023"
+  },
+ {"id":187,"Nombre":"Carolina","Apellido":"Ardiles","Correo":"caroardiles@gmail.com","Telefono":"+56947092406","Contraseña":"carito","FechaCreacion":"08-06-2023 00:00:00","FechaActualización":"07/06/2023"}]
