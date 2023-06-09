@@ -34,7 +34,9 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
  # 3. BASES DE DATOS 
  
  Para el almacenamiento se dispone de un archivo JSON, que servirá como simulador del gestor , devolviendo y escribiendo los datos  .
- <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/FOTO-BASE%20DE%20DATOS%20USUARIOS.png" width="400" height="300">
+ 
+ 
+ <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/FOTO-BASE%20DE%20DATOS%20USUARIOS.png" width="400" height="400">
  
  
   **NOTA DE ACCIÓN: Se decidió por demostrar la ejecucion del programa a través de una base de datos simple ,realizada con un archivo de texto JSON , esto especialmente para darle prioridad a la demostración del uso de .NET CORE  y no ahondar en configuraciones extras de gestores de bases de datos por parte de los evaluadores ( mayor comodidad). Se sabe que en casos  reales se puede disponer de un ORM como EntityFramework actuando como capa de abstracción de datos aprovechando las comodas bondades de la programación orientada a objetos y el uso de SQL server , pero solo para este ejemplo se pretende hacer más agil la demostración del uso de .NET  a través del almacenamiento y lectura de un archivo JSON.** 
