@@ -10,12 +10,14 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
 
 
 
- # 1 - POSTMAN: desde Postman se cuentan con los 4 endpoints solicitados . 
+ # 1 - POSTMAN: 
+ 
+ Desde Postman se cuentan con los 4 endpoints solicitados . 
 
  1. (GET) /api/User/listaUsuarios     ----> lista de usuarios   
  2. (POST)/api/User/guardarUsuario    ----> guardar un usuario 
  3. (POST)/api/Encrypted/encrypt      ----> encriptado de texto plano 
- 4. (POST)/api/Encrypted/decrypt      ----> desencriptado del base 64 devuelvo en endpoint 3 
+ 4. (POST)/api/Encrypted/decrypt      ----> desencriptado del base 64 devuelto en endpoint 3. 
 
  **NOTA DE ACCIÓN :  se determinó el uso de rutas dinámicas , para evitar eventuales ambiguedades o conflictos al acceder a estos endpoint para su consumo.** 
 
@@ -58,7 +60,7 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
   
   A modo de evidencia se da a conocer las siguientes acciones (USUARIOS) : 
   
-  - Se crea el usuario Pablo Cespedes con todo sus atributos . Luego al ejecutar la petición POST , el usuario en cuestion queda registrado en la base de datos, donde la API devuelve : mensaje , estado (exito ) , datos ( no devuelve ) . 
+  - Se crea el usuario Pablo Cespedes con todo sus atributos . Luego al ejecutar la petición POST , el usuario en cuestión queda registrado en la base de datos, donde la API devuelve : mensaje , estado (éxito ) , datos ( no devuelve ) . 
 
  <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/CREAR%20USUARIO.png" width="800" height="600">
  
@@ -75,13 +77,13 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
  
  <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/ENCRIPTACION.png" width="800" height="600">
  
- Se aprecia que se obtiene el valor en base 64 equivalente al text enviado encriptado.
+ Se aprecia que se obtiene el valor en base 64 equivalente al texto enviado encriptado.
  
  - Por ultimo , con la respuesta entregada en base 64 de la petición anterior , se procede a desencriptar : 
  
  <img src="https://github.com/cabellodev/Haulmer-evaluation/blob/master/capturas/DESCRIPTACIO%CC%81N.png" width="800" height="600">
 
-  Por lo que se puede apreciar que nuevamente nos devuelve el valor originar , es decir , Haulmer empresas. 
+  Por lo que se puede apreciar que nuevamente nos devuelve el valor original , es decir , Haulmer empresas. Lo ha desencriptado. 
   
   # CONCLUSIONES 
-  Todas las decisiones tomadas en este proyecto fueron tomando en cuenta los principios mas importantes de la programación en .NET , en especial el dominio de diferentes definiciones,programación orientada a objetos e inyección de dependecias . 
+  Todas las decisiones tomadas en este proyecto fueron considerando los principios mas importantes de la programación en .NET , en especial el dominio de diferentes definiciones,convenciones,programación orientada a objetos e inyección de dependecias . 
